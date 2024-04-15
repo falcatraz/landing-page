@@ -1,0 +1,107 @@
+
+/* body will be flex so that we can have four flex items that form the four segments */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Code for the header */
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+}
+
+.truck {
+    height: auto;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.top-one {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.top-two .h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.descript {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.top-two {
+    display: flex;
+    gap: 30px;
+    width: 1100px;
+}
+
+.top-two .p {
+    font-size: 18px;
+}
+
+.descript button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    width: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Code for the second section after the header */
+.information {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 30px;
+}
+
+.pics {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.food {
+    height: auto;
+    width: 250px;
+    box-sizing: border-box;
+    border: 4px solid rgb(5, 105, 177);
+    border-radius: 10px;
+}
