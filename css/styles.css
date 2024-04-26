@@ -1,6 +1,4 @@
-* {
-    /* outline: 1px solid black; */
-}
+
 /* body will be flex so that we can have four flex items that form the four segments */
 body {
     display: flex;
@@ -98,8 +96,9 @@ a {
 
 .pics {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 10px;
+    gap: 30px;
 }
 
 .food {
@@ -126,3 +125,48 @@ a {
 }
 
 /* Code for the box section */
+.sign-up {
+    background-color: white;
+    box-sizing: border-box;
+    padding: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-box {
+    width: 50%;
+    background-color: #3882F6;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-sign {
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.right-sign button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    width: 80px;
+    border-color: white;
+    border-style: solid;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
